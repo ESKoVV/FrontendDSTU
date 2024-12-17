@@ -1,0 +1,186 @@
+.animation_moviment_top{
+    position: fixed;
+    top: 0px;
+    left: 0.5%;
+    height: 10px;
+    width: 100%;
+    background: #000;
+
+    
+
+    animation: animation_moviment_top_fixed linear;
+
+    animation-timeline: scroll(root);
+
+    transform-origin: left;
+}
+@keyframes animation_moviment_top_fixed {
+    0% {
+      transform: scaleX(0);
+    }
+    100% {
+      transform: scaleX(1);
+    }
+  }
+
+
+
+
+.im1{
+    width: 100%;  position: absolute; left: -14.5%;
+    animation: im1_movie linear;
+
+    animation-timeline: scroll(root);
+
+    transform-origin: left;
+    
+}
+
+@keyframes im1_movie {
+    0% {
+        transform: translateX(-20%)
+    }
+    15% {
+        transform: translateX(0%)
+    }
+}
+
+
+
+.im2{
+    width: 100%;  position: absolute; left: 14.5%;
+    animation: im2_movie linear;
+
+    animation-timeline: scroll(root);
+
+    transform-origin: left;
+    
+}
+
+@keyframes im2_movie {
+    15% {
+        transform: translateX(120%)
+    }
+    33% {
+        transform: translateX(0%)
+    }
+}
+
+
+
+
+.im3{
+    width: 100%;  position: absolute; left: -14.5%;
+    animation: im3_movie linear;
+
+    animation-timeline: scroll(root);
+
+    transform-origin: left;
+    
+}
+
+@keyframes im3_movie {
+    30% {
+        transform: translateX(-100%)
+    }
+    51% {
+        transform: translateX(0%)
+    }
+}
+
+
+.im4{
+    width: 100%;  position: absolute; left: 14.5%;
+    animation: im4_movie linear;
+
+    animation-timeline: scroll(root);
+
+    transform-origin: left;
+    
+}
+
+@keyframes im4_movie {
+    48% {
+        transform: translateX(120%)
+    }
+    69% {
+        transform: translateX(0%)
+    }
+}
+
+
+.im5{
+    width: 100%;  position: absolute; left: -14.5%;
+    animation: im5_movie linear;
+
+    animation-timeline: scroll(root);
+
+    transform-origin: left;
+    
+}
+
+@keyframes im5_movie {
+    66% {
+        transform: translateX(-100%)
+    }
+    87% {
+        transform: translateX(0%)
+    }
+}
+
+/* @keyframes im1 {
+    to{ 
+        scale: 1 1;
+    }
+    
+} */
+
+
+/* заставка */
+
+
+.black_screensaver_left{
+    width: 0%;  position: fixed; height: 20%;
+    background-color: #000;
+    transform-origin: left;
+
+
+
+    animation-duration: 1s;
+    animation-name: black_screensaver_left_animation;
+}
+
+@keyframes black_screensaver_left_animation {
+    from {
+        width: 100%
+    }
+  
+    to {
+        width: 0%
+    }
+  }
+
+
+
+.black_screensaver_right{
+    width: 0%;  position: fixed; height: 20%;
+    background-color: #000;
+    transform-origin: right;
+
+
+
+    animation-duration: 2s;
+    animation-name: black_screensaver_right_animation;
+}
+
+@keyframes black_screensaver_right_animation {
+    from {
+        width: 100%
+    }
+  
+    to {
+        width: 0%
+    }
+  }
+
+

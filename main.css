@@ -1,0 +1,35 @@
+.But{
+width: 200px;
+height: 80px;
+background-color: #F3F3F3;
+opacity: 1;
+position: fixed;
+top: 18px;
+left: 12%;
+border: 0px;
+border-radius: 4px;
+transition: 0.5s;
+/* font-family: 'Roboto'; */
+
+
+}
+.But:hover {
+   
+    background-color: #766F67;
+    color: #F3F3F3;
+    width: 210px;
+    height: 85px;
+    
+}
+
+h2{
+    color: #F3F3F3; 
+    font-size: 80px;
+    position: absolute;
+    /* font-family: 'Roboto'; */
+}
+
+* {
+    font-family: sans-serif;
+}
+
